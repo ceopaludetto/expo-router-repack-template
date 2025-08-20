@@ -1,0 +1,16 @@
+{
+  "name": "ExpoRouterRepack",
+  "slug": "expo-router-repack",
+  "scheme": "exporouterrepack",
+  "version": "1.0.0",
+  "android": {
+    "package": "com.acme.exporouterrepack"
+  },
+  "ios": {
+    "bundleIdentifier": "com.acme.exporouterrepack"
+  },
+  "plugins": [
+    ["expo-router", { "root": "./src/screens" }],
+    "./plugins/expo-router-repack"
+  ]
+}

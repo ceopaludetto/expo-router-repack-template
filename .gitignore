@@ -1,0 +1,16 @@
+# Modules
+node_modules/
+
+# Build artifacts
+build/
+.expo/
+
+# IDEs
+.vscode/
+
+# Native directories
+/android
+/ios
+
+# macOS
+.DS_Store
